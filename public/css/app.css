@@ -7,15 +7,30 @@
 }
 
 h1 {
-	text-align:center;
+
 	font-size:28px;
+	float: left;
+
 }
 
+#navbarmenu {
+	background: #00696e;
+	box-shadow: 0px 0px 15px #6d6d6d;
+}
+
+.nav-item, .nav-link, .navbar a{
+	color:#fff !important;
+}
+
+.secondo-titolo {
+	float: right;
+	margin-top:0px;
+}
 .form-contatto {
 	box-sizing: border-box;
 	margin:auto;
 	max-width:800px;
-	margin-top:30px;
+	margin-top: 62px;
 	box-shadow: 0px 6px 18px #818181;
 	padding: 39px;
 	border-radius: 8px;

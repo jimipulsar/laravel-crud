@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h1>Tutti gli utenti <a href="{{ route ('users.create')}}" class="btn btn-primary">Aggiungi nuovo utente</a></h1>
+				<h1>Tutti gli utenti</h1> <h2 class="secondo-titolo"><a href="{{ route ('users.create')}}" class="btn btn-primary">Aggiungi nuovo utente</a></h2>
 				<table class="table">
 					<thead>
 					<tr>
