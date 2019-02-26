@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h1>Aggiorna l'utente {{$user->name}}</h1>
+				<h2 class="main-title">Aggiorna l'utente {{$user->name}}</h2>
 				<form class="form-contatto" action="{{ route('users.update', $user->id)}}" method="post">
 					@method('PUT')
 					@csrf
