@@ -23,7 +23,7 @@
 	  </select>
 	</div>
 	<div class="form-group">
-		<input type="submit" value="Salva nuovo utente" class="form-control">
+		<input type="submit" value="Salva nuovo utente" class="form-control" id="save">
 	</div>
 </form>
 @endsection
