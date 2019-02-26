@@ -17,6 +17,8 @@
 					</tr>
 				</thead>
 				</table>
+				<td><a href="{{route('users.index', $user->id)}}" class="btn btn-primary">Torna indietro</a></td>
+				<td>
 			</div>
 		</div>
 	</div>
